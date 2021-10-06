@@ -1,0 +1,253 @@
+#get_county_adj.py
+# GMT Mon Dec 11 20:49:29 2017
+# 
+Montague_TX	Cooke_TX	Montague_TX	Wise_TX	Clay_TX	Jack_TX
+Shackelford_TX	Shackelford_TX	Callahan_TX	Haskell_TX	Jones_TX	Stephens_TX	Throckmorton_TX	Eastland_TX
+Burleson_TX	Burleson_TX	Milam_TX	Lee_TX	Washington_TX	Brazos_TX	Robertson_TX
+DeWitt_TX	DeWitt_TX	Karnes_TX	Goliad_TX	Victoria_TX	Gonzales_TX	Lavaca_TX
+Hall_TX	Donley_TX	Cottle_TX	Collingsworth_TX	Hall_TX	Motley_TX	Briscoe_TX	Childress_TX
+Schleicher_TX	Kimble_TX	Tom Green_TX	Schleicher_TX	Sutton_TX	Concho_TX	Menard_TX	Irion_TX	Crockett_TX
+Menard_TX	Kimble_TX	Tom Green_TX	McCulloch_TX	Sutton_TX	Concho_TX	Mason_TX	Menard_TX
+Jackson_TX	Colorado_TX	Calhoun_TX	Victoria_TX	Jackson_TX	Matagorda_TX	Lavaca_TX	Wharton_TX
+Smith_TX	Cherokee_TX	Upshur_TX	Gregg_TX	Wood_TX	Rusk_TX	Smith_TX	Van Zandt_TX	Henderson_TX
+Erath_TX	Comanche_TX	Hood_TX	Hamilton_TX	Somervell_TX	Erath_TX	Palo Pinto_TX	Bosque_TX	Eastland_TX
+Bosque_TX	Coryell_TX	Hamilton_TX	McLennan_TX	Hill_TX	Somervell_TX	Johnson_TX	Bosque_TX
+Lavaca_TX	Colorado_TX	Victoria_TX	Gonzales_TX	Fayette_TX	Lavaca_TX
+Wheeler_TX	Donley_TX	Hemphill_TX	Collingsworth_TX	Gray_TX	Roberts_TX	Wheeler_TX
+Titus_TX	Camp_TX	Morris_TX	Red River_TX	Titus_TX	Franklin_TX
+Baylor_TX	Haskell_TX	Wilbarger_TX	Foard_TX	Archer_TX	Knox_TX	Young_TX	Wichita_TX	Throckmorton_TX	Baylor_TX
+Kenedy_TX	Kenedy_TX	Brooks_TX	Kleberg_TX	Willacy_TX	Hidalgo_TX
+Comal_TX	Comal_TX	Guadalupe_TX	Kendall_TX	Blanco_TX	Hays_TX	Bexar_TX
+Rains_TX	Hunt_TX	Wood_TX	Van Zandt_TX	Rains_TX	Hopkins_TX
+Lee_TX	Milam_TX	Lee_TX	Washington_TX	Bastrop_TX	Fayette_TX	Williamson_TX
+McCulloch_TX	McCulloch_TX	San Saba_TX	Brown_TX	Concho_TX	Mason_TX	Coleman_TX
+Hidalgo_TX	Cameron_TX	Hidalgo_TX	Brooks_TX	Starr_TX	Willacy_TX
+Kendall_TX	Kendall_TX	Blanco_TX	Bexar_TX	Kerr_TX	Gillespie_TX
+Kent_TX	Garza_TX	Dickens_TX	Fisher_TX	Stonewall_TX	Kent_TX	Scurry_TX	Crosby_TX
+Aransas_TX	Aransas_TX	Refugio_TX	Calhoun_TX	San Patricio_TX	Nueces_TX
+Frio_TX	La Salle_TX	Frio_TX	Zavala_TX	Medina_TX	Uvalde_TX	Dimmit_TX	Atascosa_TX
+Medina_TX	Zavala_TX	Medina_TX	Uvalde_TX	Bexar_TX	Atascosa_TX
+Hays_TX	Guadalupe_TX	Caldwell_TX	Blanco_TX	Hays_TX	Travis_TX
+Zavala_TX	Kinney_TX	Zavala_TX	Uvalde_TX	Maverick_TX	Dimmit_TX
+Maverick_TX	Kinney_TX	Uvalde_TX	Webb_TX	Maverick_TX	Dimmit_TX
+Floyd_TX	Dickens_TX	Crosby_TX	Motley_TX	Lubbock_TX	Hale_TX	Briscoe_TX	Floyd_TX	Swisher_TX
+Crosby_TX	Garza_TX	Dickens_TX	Lubbock_TX	Motley_TX	Lynn_TX	Hale_TX	Crosby_TX
+Williamson_TX	Milam_TX	Williamson_TX	Bastrop_TX	Bell_TX	Burnet_TX	Travis_TX
+Rusk_TX	Harrison_TX	Panola_TX	Cherokee_TX	Gregg_TX	Shelby_TX	Rusk_TX	Nacogdoches_TX
+Wise_TX	Cooke_TX	Wise_TX	Jack_TX	Denton_TX	Tarrant_TX	Parker_TX
+Cottle_TX	Dickens_TX	Hardeman_TX	Cottle_TX	Foard_TX	Motley_TX	Childress_TX
+Scurry_TX	Garza_TX	Mitchell_TX	Fisher_TX	Borden_TX	Scurry_TX	Nolan_TX
+Polk_TX	Polk_TX	Trinity_TX	Hardin_TX	Angelina_TX	Tyler_TX	Liberty_TX	San Jacinto_TX
+Fort Bend_TX	Waller_TX	Austin_TX	Harris_TX	Fort Bend_TX	Brazoria_TX	Wharton_TX
+Dallas_TX	Tarrant_TX	Ellis_TX	Dallas_TX	Denton_TX	Collin_TX	Rockwall_TX	Kaufman_TX
+Cass_TX	Cass_TX	Bowie_TX	Morris_TX
+Hansford_TX	Moore_TX	Hansford_TX	Ochiltree_TX	Roberts_TX	Sherman_TX	Hutchinson_TX
+Wilson_TX	Karnes_TX	Guadalupe_TX	Gonzales_TX	Wilson_TX	Bexar_TX	Atascosa_TX
+Carson_TX	Randall_TX	Donley_TX	Moore_TX	Armstrong_TX	Gray_TX	Potter_TX	Hutchinson_TX	Carson_TX	Roberts_TX
+Hunt_TX	Hopkins_TX	Rockwall_TX	Collin_TX	Fannin_TX	Hunt_TX	Van Zandt_TX	Kaufman_TX	Delta_TX
+Jack_TX	Clay_TX	Archer_TX	Young_TX	Palo Pinto_TX	Jack_TX	Parker_TX
+Leon_TX	Anderson_TX	Houston_TX	Limestone_TX	Freestone_TX	Leon_TX	Brazos_TX	Madison_TX	Robertson_TX
+Cooke_TX	Cooke_TX	Grayson_TX	Denton_TX
+Gaines_TX	Yoakum_TX	Gaines_TX	Martin_TX	Dawson_TX	Terry_TX	Andrews_TX
+Harrison_TX	Harrison_TX	Upshur_TX	Gregg_TX	Panola_TX
+Anderson_TX	Anderson_TX	Cherokee_TX	Houston_TX	Freestone_TX	Henderson_TX
+Guadalupe_TX	Guadalupe_TX	Caldwell_TX	Gonzales_TX	Bexar_TX
+Houston_TX	Walker_TX	Cherokee_TX	Trinity_TX	Houston_TX	Angelina_TX	Madison_TX
+Victoria_TX	Refugio_TX	Goliad_TX	Victoria_TX	Calhoun_TX
+Hale_TX	Castro_TX	Lubbock_TX	Hale_TX	Lamb_TX	Hockley_TX	Swisher_TX
+Fayette_TX	Austin_TX	Colorado_TX	Caldwell_TX	Washington_TX	Gonzales_TX	Bastrop_TX	Fayette_TX
+Terry_TX	Yoakum_TX	Lubbock_TX	Dawson_TX	Lynn_TX	Hockley_TX	Cochran_TX	Terry_TX
+Travis_TX	Caldwell_TX	Blanco_TX	Bastrop_TX	Burnet_TX	Travis_TX
+Yoakum_TX	Yoakum_TX	Hockley_TX	Cochran_TX
+Cameron_TX	Cameron_TX	Willacy_TX
+Bastrop_TX	Caldwell_TX	Bastrop_TX
+Jim Wells_TX	Jim Wells_TX	Nueces_TX	San Patricio_TX	Kleberg_TX	Duval_TX	Brooks_TX	Live Oak_TX
+Nueces_TX	San Patricio_TX	Kleberg_TX	Nueces_TX
+Cherokee_TX	Cherokee_TX	Nacogdoches_TX	Angelina_TX	Henderson_TX
+Sherman_TX	Dallam_TX	Hartley_TX	Moore_TX	Hutchinson_TX	Sherman_TX
+Jim Hogg_TX	Jim Hogg_TX	Duval_TX	Brooks_TX	Zapata_TX	Webb_TX	Starr_TX
+Archer_TX	Archer_TX	Wilbarger_TX	Clay_TX	Young_TX	Wichita_TX	Throckmorton_TX
+Stephens_TX	Stephens_TX	Young_TX	Palo Pinto_TX	Throckmorton_TX	Eastland_TX
+Zapata_TX	Webb_TX	Zapata_TX	Starr_TX
+Willacy_TX	Willacy_TX
+Hutchinson_TX	Moore_TX	Hutchinson_TX	Roberts_TX
+Calhoun_TX	Refugio_TX	Calhoun_TX	Matagorda_TX
+Navarro_TX	Hill_TX	Ellis_TX	Limestone_TX	Freestone_TX	Navarro_TX	Henderson_TX
+Taylor_TX	Callahan_TX	Fisher_TX	Runnels_TX	Coleman_TX	Nolan_TX	Jones_TX	Taylor_TX
+Madison_TX	Walker_TX	Grimes_TX	Brazos_TX	Madison_TX	Robertson_TX
+Newton_TX	Orange_TX	Jasper_TX	Newton_TX
+Hudspeth_TX	Culberson_TX	Hudspeth_TX	Presidio_TX	El Paso_TX	Jeff Davis_TX
+Dickens_TX	Garza_TX	Dickens_TX	Stonewall_TX	Motley_TX
+Randall_TX	Randall_TX	Castro_TX	Armstrong_TX	Potter_TX	Deaf Smith_TX	Oldham_TX	Swisher_TX
+Jeff Davis_TX	Culberson_TX	Jeff Davis_TX	Brewster_TX	Pecos_TX	Presidio_TX	Reeves_TX
+Upshur_TX	Morris_TX	Upshur_TX	Gregg_TX	Wood_TX	Camp_TX
+Ward_TX	Reeves_TX	Crane_TX	Loving_TX	Winkler_TX	Pecos_TX	Ward_TX	Ector_TX
+Somervell_TX	Somervell_TX	Johnson_TX	Hood_TX
+Armstrong_TX	Donley_TX	Briscoe_TX	Armstrong_TX	Gray_TX	Potter_TX	Swisher_TX
+Presidio_TX	Brewster_TX	Presidio_TX
+Potter_TX	Moore_TX	Potter_TX	Deaf Smith_TX	Oldham_TX
+Franklin_TX	Hopkins_TX	Wood_TX	Franklin_TX	Camp_TX	Delta_TX	Red River_TX
+Robertson_TX	Milam_TX	Limestone_TX	Falls_TX	Brazos_TX	Robertson_TX
+Upton_TX	Glasscock_TX	Crane_TX	Upton_TX	Midland_TX	Reagan_TX	Ector_TX	Crockett_TX
+Crane_TX	Crane_TX	Pecos_TX	Ector_TX	Crockett_TX
+Colorado_TX	Austin_TX	Colorado_TX	Wharton_TX
+Kleberg_TX	Brooks_TX	Kleberg_TX
+Howard_TX	Martin_TX	Glasscock_TX	Mitchell_TX	Borden_TX	Dawson_TX	Sterling_TX	Howard_TX
+Tyler_TX	Angelina_TX	Jasper_TX	Hardin_TX	Tyler_TX
+Coryell_TX	Lampasas_TX	Coryell_TX	McLennan_TX	Hamilton_TX	Bell_TX
+Deaf Smith_TX	Parmer_TX	Castro_TX	Deaf Smith_TX	Oldham_TX
+Denton_TX	Grayson_TX	Collin_TX	Denton_TX	Tarrant_TX
+Montgomery_TX	Walker_TX	Waller_TX	Grimes_TX	Harris_TX	Montgomery_TX	Liberty_TX	San Jacinto_TX
+Ochiltree_TX	Ochiltree_TX	Lipscomb_TX	Roberts_TX
+Austin_TX	Waller_TX	Austin_TX	Washington_TX	Wharton_TX
+Van Zandt_TX	Wood_TX	Van Zandt_TX	Kaufman_TX	Henderson_TX
+Swisher_TX	Castro_TX	Briscoe_TX	Swisher_TX
+Coke_TX	Runnels_TX	Mitchell_TX	Tom Green_TX	Sterling_TX	Nolan_TX	Coke_TX
+Culberson_TX	Culberson_TX	Reeves_TX
+Motley_TX	Motley_TX	Briscoe_TX
+Dallam_TX	Hartley_TX	Moore_TX	Dallam_TX
+Eastland_TX	Callahan_TX	Comanche_TX	Palo Pinto_TX	Brown_TX	Eastland_TX
+Goliad_TX	Refugio_TX	Karnes_TX	Goliad_TX	Bee_TX
+Val Verde_TX	Terrell_TX	Kinney_TX	Sutton_TX	Val Verde_TX	Edwards_TX	Crockett_TX
+Duval_TX	La Salle_TX	Duval_TX	Brooks_TX	Webb_TX	McMullen_TX	Live Oak_TX
+Nacogdoches_TX	San Augustine_TX	Shelby_TX	Nacogdoches_TX	Angelina_TX
+Freestone_TX	Limestone_TX	Freestone_TX	Henderson_TX
+Coleman_TX	Callahan_TX	Runnels_TX	Concho_TX	Coleman_TX	Brown_TX
+Fannin_TX	Grayson_TX	Lamar_TX	Collin_TX	Fannin_TX	Delta_TX
+Walker_TX	Walker_TX	Grimes_TX	Trinity_TX	San Jacinto_TX
+Terrell_TX	Brewster_TX	Terrell_TX	Pecos_TX	Crockett_TX
+Hemphill_TX	Lipscomb_TX	Gray_TX	Roberts_TX	Hemphill_TX
+Caldwell_TX	Caldwell_TX	Gonzales_TX
+McLennan_TX	McLennan_TX	Hill_TX	Limestone_TX	Falls_TX	Bell_TX
+Gregg_TX	Gregg_TX
+Wichita_TX	Wichita_TX	Wilbarger_TX	Clay_TX
+Johnson_TX	Ellis_TX	Hood_TX	Hill_TX	Johnson_TX	Tarrant_TX	Parker_TX
+Palo Pinto_TX	Hood_TX	Young_TX	Palo Pinto_TX	Parker_TX
+Oldham_TX	Hartley_TX	Moore_TX	Oldham_TX
+Grayson_TX	Grayson_TX	Collin_TX
+Panola_TX	Shelby_TX	Panola_TX
+Parker_TX	Hood_TX	Tarrant_TX	Parker_TX
+Fisher_TX	Mitchell_TX	Fisher_TX	Stonewall_TX	Nolan_TX	Jones_TX
+San Augustine_TX	San Augustine_TX	Angelina_TX	Jasper_TX	Shelby_TX
+Donley_TX	Donley_TX	Collingsworth_TX	Briscoe_TX	Gray_TX
+La Salle_TX	La Salle_TX	Webb_TX	McMullen_TX	Dimmit_TX	Atascosa_TX
+Trinity_TX	Trinity_TX	Angelina_TX	San Jacinto_TX
+Moore_TX	Hartley_TX	Moore_TX
+Harris_TX	Waller_TX	Chambers_TX	Harris_TX	Brazoria_TX	Liberty_TX	Galveston_TX
+Hill_TX	Hill_TX	Ellis_TX	Limestone_TX
+Sterling_TX	Glasscock_TX	Mitchell_TX	Tom Green_TX	Sterling_TX	Reagan_TX
+Limestone_TX	Limestone_TX	Falls_TX
+Brooks_TX	Brooks_TX	Starr_TX
+Lynn_TX	Garza_TX	Borden_TX	Lubbock_TX	Dawson_TX	Lynn_TX	Hockley_TX
+Brown_TX	Callahan_TX	San Saba_TX	Comanche_TX	Brown_TX	Mills_TX
+Briscoe_TX	Briscoe_TX
+El Paso_TX	El Paso_TX
+Jones_TX	Callahan_TX	Haskell_TX	Stonewall_TX	Nolan_TX	Jones_TX
+Bell_TX	Lampasas_TX	Milam_TX	Falls_TX	Bell_TX	Burnet_TX
+Burnet_TX	Lampasas_TX	San Saba_TX	Llano_TX	Blanco_TX	Burnet_TX
+Orange_TX	Orange_TX	Jefferson_TX	Jasper_TX	Hardin_TX
+San Saba_TX	Lampasas_TX	San Saba_TX	Llano_TX	Mason_TX	Mills_TX
+Kinney_TX	Uvalde_TX	Kinney_TX	Edwards_TX
+Wilbarger_TX	Hardeman_TX	Wilbarger_TX	Foard_TX
+Milam_TX	Milam_TX	Falls_TX
+Hopkins_TX	Hopkins_TX	Wood_TX	Delta_TX
+McMullen_TX	Webb_TX	McMullen_TX	Live Oak_TX	Atascosa_TX
+Jefferson_TX	Jefferson_TX	Liberty_TX	Chambers_TX	Hardin_TX
+Pecos_TX	Brewster_TX	Pecos_TX	Reeves_TX	Crockett_TX
+Hartley_TX	Hartley_TX
+Sutton_TX	Kimble_TX	Sutton_TX	Edwards_TX	Crockett_TX
+Hardeman_TX	Foard_TX	Hardeman_TX	Childress_TX
+Shelby_TX	Shelby_TX
+Gonzales_TX	Karnes_TX	Gonzales_TX
+Bexar_TX	Bexar_TX	Atascosa_TX
+Lamb_TX	Bailey_TX	Parmer_TX	Castro_TX	Lubbock_TX	Lamb_TX	Hockley_TX	Cochran_TX
+Tarrant_TX	Ellis_TX	Tarrant_TX
+Childress_TX	Collingsworth_TX	Childress_TX
+Crockett_TX	Reagan_TX	Irion_TX	Crockett_TX
+Lampasas_TX	Lampasas_TX	Hamilton_TX	Mills_TX
+Borden_TX	Garza_TX	Martin_TX	Mitchell_TX	Borden_TX	Dawson_TX
+Winkler_TX	Loving_TX	Winkler_TX	Ector_TX	Andrews_TX
+Hamilton_TX	Hamilton_TX	Comanche_TX	Mills_TX
+Clay_TX	Clay_TX
+Runnels_TX	Tom Green_TX	Runnels_TX	Concho_TX	Nolan_TX
+Bee_TX	Refugio_TX	Karnes_TX	San Patricio_TX	Bee_TX	Live Oak_TX
+Lubbock_TX	Garza_TX	Lubbock_TX	Hockley_TX
+Brazoria_TX	Galveston_TX	Brazoria_TX	Matagorda_TX	Wharton_TX
+Dimmit_TX	Webb_TX	Dimmit_TX
+Angelina_TX	Jasper_TX	Angelina_TX
+Llano_TX	Llano_TX	Blanco_TX	Mason_TX	Gillespie_TX
+Galveston_TX	Chambers_TX	Galveston_TX
+Andrews_TX	Martin_TX	Midland_TX	Ector_TX	Andrews_TX
+Garza_TX	Garza_TX
+Refugio_TX	Refugio_TX	San Patricio_TX
+Parmer_TX	Bailey_TX	Castro_TX	Parmer_TX
+Brewster_TX	Brewster_TX
+Hood_TX	Hood_TX
+Collin_TX	Rockwall_TX	Collin_TX
+Hardin_TX	Jasper_TX	Hardin_TX	Liberty_TX
+Concho_TX	Tom Green_TX	Concho_TX
+Chambers_TX	Liberty_TX	Chambers_TX
+Mason_TX	Kimble_TX	Mason_TX	Gillespie_TX
+Rockwall_TX	Rockwall_TX	Kaufman_TX
+Throckmorton_TX	Haskell_TX	Knox_TX	Young_TX	Throckmorton_TX
+Kerr_TX	Kimble_TX	Gillespie_TX	Real_TX	Kerr_TX	Edwards_TX
+Matagorda_TX	Wharton_TX	Matagorda_TX
+Castro_TX	Castro_TX
+Atascosa_TX	Karnes_TX	Live Oak_TX	Atascosa_TX
+Glasscock_TX	Martin_TX	Glasscock_TX	Midland_TX	Reagan_TX
+Karnes_TX	Karnes_TX	Live Oak_TX
+Roberts_TX	Lipscomb_TX	Gray_TX	Roberts_TX
+Collingsworth_TX	Collingsworth_TX	Gray_TX
+Lipscomb_TX	Lipscomb_TX
+Knox_TX	Haskell_TX	Foard_TX	Stonewall_TX	Knox_TX
+Starr_TX	Starr_TX
+Dawson_TX	Martin_TX	Dawson_TX
+Reagan_TX	Tom Green_TX	Midland_TX	Reagan_TX	Irion_TX
+Red River_TX	Morris_TX	Bowie_TX	Lamar_TX	Delta_TX	Red River_TX
+Real_TX	Real_TX	Uvalde_TX	Edwards_TX
+Nolan_TX	Mitchell_TX	Nolan_TX
+Hockley_TX	Bailey_TX	Hockley_TX	Cochran_TX
+Cochran_TX	Bailey_TX	Cochran_TX
+Wharton_TX	Wharton_TX
+Edwards_TX	Kimble_TX	Uvalde_TX	Edwards_TX
+Bailey_TX	Bailey_TX
+Jasper_TX	Jasper_TX
+Reeves_TX	Reeves_TX	Loving_TX
+Haskell_TX	Haskell_TX	Stonewall_TX
+Kimble_TX	Kimble_TX	Gillespie_TX
+Foard_TX	Foard_TX
+Tom Green_TX	Tom Green_TX	Irion_TX
+Stonewall_TX	Stonewall_TX
+Bowie_TX	Morris_TX	Bowie_TX
+Ellis_TX	Kaufman_TX	Ellis_TX	Henderson_TX
+Gray_TX	Gray_TX
+Uvalde_TX	Uvalde_TX
+Ector_TX	Midland_TX	Ector_TX
+Mills_TX	Comanche_TX	Mills_TX
+Camp_TX	Morris_TX	Wood_TX	Camp_TX
+Liberty_TX	Liberty_TX	San Jacinto_TX
+San Jacinto_TX	San Jacinto_TX
+Irion_TX	Irion_TX
+Henderson_TX	Kaufman_TX	Henderson_TX
+Young_TX	Young_TX
+Live Oak_TX	San Patricio_TX	Live Oak_TX
+Waller_TX	Waller_TX	Grimes_TX	Washington_TX
+Callahan_TX	Callahan_TX
+Martin_TX	Martin_TX	Midland_TX
+Mitchell_TX	Mitchell_TX
+Morris_TX	Morris_TX
+Blanco_TX	Blanco_TX	Gillespie_TX
+Grimes_TX	Grimes_TX	Washington_TX	Brazos_TX
+Washington_TX	Washington_TX	Brazos_TX
+Midland_TX	Midland_TX
+Lamar_TX	Lamar_TX	Delta_TX
+Delta_TX	Delta_TX
+Comanche_TX	Comanche_TX
+Falls_TX	Falls_TX
+San Patricio_TX	San Patricio_TX
+Loving_TX	Loving_TX
+Webb_TX	Webb_TX
+Wood_TX	Wood_TX
+Brazos_TX	Brazos_TX
+Kaufman_TX	Kaufman_TX
+Gillespie_TX	Gillespie_TX

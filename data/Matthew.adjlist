@@ -1,0 +1,372 @@
+#get_county_adj.py
+# GMT Thu Jan 18 04:44:59 2018
+# 
+Orange_NC	Durham_NC	Chatham_NC	Orange_NC	Person_NC	Alamance_NC	Caswell_NC
+Dixie_FL	Levy_FL	Dixie_FL	Gilchrist_FL	Lafayette_FL	Taylor_FL
+Screven_GA	Hampton_SC	Allendale_SC	Burke_GA	Effingham_GA	Jenkins_GA	Screven_GA	Bulloch_GA
+Yancey_NC	Yancey_NC	Madison_NC	McDowell_NC	Mitchell_NC	Buncombe_NC
+Bulloch_GA	Evans_GA	Emanuel_GA	Effingham_GA	Jenkins_GA	Bryan_GA	Candler_GA	Bulloch_GA
+Edgefield_SC	Aiken_SC	Greenwood_SC	Columbia_GA	Richmond_GA	Saluda_SC	McCormick_SC	Edgefield_SC
+Nassau_FL	Charlton_GA	Baker_FL	Camden_GA	Nassau_FL	Duval_FL
+Gulf_FL	Liberty_FL	Calhoun_FL	Gulf_FL	Franklin_FL	Bay_FL
+Monroe_GA	Upson_GA	Crawford_GA	Lamar_GA	Butts_GA	Jones_GA	Monroe_GA	Bibb_GA	Jasper_GA
+Collier_FL	Lee_FL	Monroe_FL	Hendry_FL	Miami-Dade_FL	Broward_FL	Collier_FL
+Palm Beach_FL	Martin_FL	Okeechobee_FL	Glades_FL	Hendry_FL	Broward_FL	Palm Beach_FL
+Meriwether_GA	Upson_GA	Meriwether_GA	Pike_GA	Coweta_GA	Spalding_GA	Troup_GA	Talbot_GA	Harris_GA
+Martin_FL	Martin_FL	Okeechobee_FL	St. Lucie_FL	Glades_FL	Hendry_FL
+Holmes_FL	Jackson_FL	Washington_FL	Walton_FL	Holmes_FL
+Calhoun_FL	Calhoun_FL	Jackson_FL	Bay_FL	Gadsden_FL	Liberty_FL
+Pulaski_GA	Dooly_GA	Wilcox_GA	Houston_GA	Dodge_GA	Bleckley_GA	Pulaski_GA
+Suwannee_FL	Columbia_FL	Madison_FL	Hamilton_FL	Suwannee_FL	Gilchrist_FL	Lafayette_FL
+Davie_NC	Davidson_NC	Yadkin_NC	Davie_NC	Iredell_NC	Rowan_NC	Forsyth_NC
+Fannin_GA	Lumpkin_GA	Gilmer_GA	Cherokee_NC	Fannin_GA	Dawson_GA	Murray_GA
+Leon_FL	Grady_GA	Leon_FL	Wakulla_FL	Thomas_GA	Gadsden_FL	Liberty_FL	Jefferson_FL
+Polk_FL	Polk_FL	Pasco_FL	Sumter_FL	Highlands_FL	Okeechobee_FL	Lake_FL	Hillsborough_FL	Manatee_FL	Hardee_FL	Orange_FL	Osceola_FL
+Newton_GA	Newton_GA	Walton_GA	Morgan_GA	Jasper_GA	Rockdale_GA	Henry_GA	Butts_GA
+Coweta_GA	Heard_GA	Fayette_GA	Coweta_GA	Spalding_GA	Fulton_GA	Troup_GA	Carroll_GA
+Lancaster_SC	Chesterfield_SC	York_SC	Mecklenburg_NC	Chester_SC	Lancaster_SC	Fairfield_SC	Kershaw_SC	Union_NC
+Johnson_GA	Laurens_GA	Treutlen_GA	Washington_GA	Emanuel_GA	Jefferson_GA	Johnson_GA	Wilkinson_GA
+Oglethorpe_GA	Elbert_GA	Wilkes_GA	Clarke_GA	Madison_GA	Oconee_GA	Oglethorpe_GA	Greene_GA	Taliaferro_GA
+Hillsborough_FL	Pasco_FL	Hillsborough_FL	Manatee_FL	Pinellas_FL	Hardee_FL
+Rowan_NC	Davidson_NC	Cabarrus_NC	Iredell_NC	Montgomery_NC	Rowan_NC	Stanly_NC
+Lenoir_NC	Wayne_NC	Greene_NC	Pitt_NC	Lenoir_NC	Jones_NC	Craven_NC	Duplin_NC
+Peach_GA	Crawford_GA	Houston_GA	Macon_GA	Peach_GA	Taylor_GA
+Newberry_SC	Greenwood_SC	Newberry_SC	Saluda_SC	Lexington_SC	Fairfield_SC	Laurens_SC	Richland_SC	Union_SC
+Lake_FL	Sumter_FL	Volusia_FL	Marion_FL	Lake_FL	Seminole_FL	Orange_FL	Osceola_FL
+Wilkes_GA	Elbert_GA	Wilkes_GA	Lincoln_GA	McDuffie_GA	Warren_GA	Taliaferro_GA
+Bay_FL	Washington_FL	Jackson_FL	Bay_FL	Walton_FL
+Clay_NC	Clay_NC	Rabun_GA	Macon_NC	Cherokee_NC
+Calhoun_SC	Clarendon_SC	Lexington_SC	Richland_SC	Calhoun_SC	Sumter_SC	Orangeburg_SC
+Baker_GA	Mitchell_GA	Calhoun_GA	Decatur_GA	Dougherty_GA	Baker_GA	Miller_GA	Early_GA
+Cabarrus_NC	Cabarrus_NC	Mecklenburg_NC	Iredell_NC	Stanly_NC	Union_NC
+Pender_NC	Sampson_NC	Columbus_NC	Brunswick_NC	New Hanover_NC	Pender_NC	Onslow_NC	Bladen_NC	Duplin_NC
+Talbot_GA	Upson_GA	Muscogee_GA	Taylor_GA	Talbot_GA	Chattahoochee_GA	Marion_GA	Harris_GA
+Grady_GA	Grady_GA	Mitchell_GA	Gadsden_FL	Thomas_GA	Decatur_GA
+Chowan_NC	Hertford_NC	Bertie_NC	Gates_NC	Chowan_NC	Washington_NC	Perquimans_NC
+Paulding_GA	Polk_GA	Haralson_GA	Douglas_GA	Paulding_GA	Cobb_GA	Bartow_GA	Carroll_GA
+Bladen_NC	Cumberland_NC	Sampson_NC	Columbus_NC	Robeson_NC	Bladen_NC
+Schley_GA	Marion_GA	Schley_GA	Sumter_GA	Macon_GA	Taylor_GA
+Richland_SC	Lexington_SC	Fairfield_SC	Kershaw_SC	Richland_SC	Sumter_SC
+Forsyth_GA	Forsyth_GA	Cherokee_GA	Gwinnett_GA	Fulton_GA	Hall_GA	Dawson_GA
+Florence_SC	Marlboro_SC	Florence_SC	Williamsburg_SC	Clarendon_SC	Dillon_SC	Marion_SC	Darlington_SC	Lee_SC	Sumter_SC
+Bacon_GA	Ware_GA	Bacon_GA	Coffee_GA	Pierce_GA	Jeff Davis_GA	Appling_GA
+Wilcox_GA	Ben Hill_GA	Crisp_GA	Telfair_GA	Dooly_GA	Wilcox_GA	Dodge_GA	Turner_GA
+Brunswick_NC	Brunswick_NC	New Hanover_NC	Horry_SC	Columbus_NC
+Hall_GA	Jackson_GA	Lumpkin_GA	White_GA	Gwinnett_GA	Habersham_GA	Banks_GA	Hall_GA	Barrow_GA	Dawson_GA
+Miller_GA	Miller_GA	Early_GA	Seminole_GA	Decatur_GA
+Evans_GA	Evans_GA	Liberty_GA	Bryan_GA	Tattnall_GA	Candler_GA
+Chattahoochee_GA	Muscogee_GA	Chattahoochee_GA	Marion_GA	Stewart_GA
+Pitt_NC	Edgecombe_NC	Pitt_NC	Beaufort_NC	Greene_NC	Wilson_NC	Martin_NC	Craven_NC
+Gordon_GA	Whitfield_GA	Cherokee_GA	Gilmer_GA	Gordon_GA	Walker_GA	Pickens_GA	Bartow_GA	Floyd_GA	Murray_GA
+Pickens_GA	Cherokee_GA	Gilmer_GA	Pickens_GA	Bartow_GA	Dawson_GA
+Forsyth_NC	Davidson_NC	Yadkin_NC	Forsyth_NC	Surry_NC	Guilford_NC	Rockingham_NC	Stokes_NC
+Clay_GA	Randolph_GA	Clay_GA	Early_GA	Quitman_GA	Calhoun_GA
+Pinellas_FL	Pinellas_FL	Pasco_FL
+Upson_GA	Upson_GA	Crawford_GA	Pike_GA	Taylor_GA	Lamar_GA
+Citrus_FL	Levy_FL	Sumter_FL	Hernando_FL	Marion_FL	Citrus_FL
+Chester_SC	Chester_SC	Fairfield_SC	Union_SC	York_SC
+Twiggs_GA	Houston_GA	Jones_GA	Bleckley_GA	Laurens_GA	Twiggs_GA	Wilkinson_GA	Bibb_GA
+St. Johns_FL	Clay_FL	Putnam_FL	St. Johns_FL	Flagler_FL	Duval_FL
+Columbia_GA	Columbia_GA	McCormick_SC	Richmond_GA	Lincoln_GA	McDuffie_GA
+Gadsden_FL	Jackson_FL	Decatur_GA	Seminole_GA	Gadsden_FL	Liberty_FL
+Liberty_FL	Wakulla_FL	Jackson_FL	Liberty_FL	Franklin_FL
+Brooks_GA	Madison_FL	Hamilton_FL	Thomas_GA	Cook_GA	Lowndes_GA	Colquitt_GA	Brooks_GA	Jefferson_FL
+Gaston_NC	York_SC	Lincoln_NC	Cleveland_NC	Gaston_NC	Mecklenburg_NC
+Clarendon_SC	Williamsburg_SC	Clarendon_SC	Berkeley_SC	Sumter_SC	Orangeburg_SC
+Oconee_GA	Jackson_GA	Clarke_GA	Walton_GA	Oconee_GA	Morgan_GA	Greene_GA	Barrow_GA
+Montgomery_NC	Davidson_NC	Richmond_NC	Anson_NC	Moore_NC	Stanly_NC	Montgomery_NC	Randolph_NC
+Hendry_FL	Lee_FL	Okeechobee_FL	Glades_FL	Hendry_FL	Charlotte_FL	Broward_FL
+Lee_GA	Sumter_GA	Lee_GA	Worth_GA	Crisp_GA	Terrell_GA	Dougherty_GA
+Wakulla_FL	Wakulla_FL	Franklin_FL	Jefferson_FL
+Glynn_GA	Glynn_GA	Wayne_GA	Camden_GA	Brantley_GA	McIntosh_GA
+Jackson_FL	Washington_FL	Jackson_FL	Seminole_GA
+Jefferson_GA	McDuffie_GA	Richmond_GA	Washington_GA	Burke_GA	Emanuel_GA	Jefferson_GA	Warren_GA	Glascock_GA
+Alleghany_NC	Wilkes_NC	Surry_NC	Ashe_NC	Alleghany_NC
+Franklin_FL	Franklin_FL
+Colquitt_GA	Mitchell_GA	Tift_GA	Worth_GA	Thomas_GA	Cook_GA	Colquitt_GA
+Clinch_GA	Echols_GA	Clinch_GA	Lanier_GA	Columbia_FL	Baker_FL	Atkinson_GA	Ware_GA
+Escambia_FL	Santa Rosa_FL	Escambia_FL
+Currituck_NC	Currituck_NC	Dare_NC	Camden_NC	Tyrrell_NC
+Putnam_FL	Flagler_FL	Putnam_FL	Volusia_FL	Alachua_FL	Marion_FL	Clay_FL	Bradford_FL
+Gwinnett_GA	DeKalb_GA	Jackson_GA	Gwinnett_GA	Fulton_GA	Walton_GA	Rockdale_GA	Barrow_GA
+Laurens_GA	Wheeler_GA	Treutlen_GA	Dodge_GA	Bleckley_GA	Emanuel_GA	Laurens_GA	Wilkinson_GA
+Jenkins_GA	Emanuel_GA	Jenkins_GA	Burke_GA
+Broward_FL	Miami-Dade_FL	Broward_FL
+Polk_NC	Rutherford_NC	Greenville_SC	Henderson_NC	Polk_NC	Spartanburg_SC
+Jasper_SC	Hampton_SC	Jasper_SC	Effingham_GA	Beaufort_SC	Chatham_GA
+Richmond_GA	Aiken_SC	McDuffie_GA	Richmond_GA	Burke_GA
+Burke_GA	Aiken_SC	Allendale_SC	Burke_GA	Emanuel_GA	Barnwell_SC
+Macon_GA	Crawford_GA	Sumter_GA	Dooly_GA	Houston_GA	Taylor_GA	Macon_GA
+Barrow_GA	Jackson_GA	Clarke_GA	Walton_GA	Barrow_GA
+Orange_FL	Brevard_FL	Volusia_FL	Seminole_FL	Orange_FL	Osceola_FL
+Anderson_SC	Elbert_GA	Hart_GA	Anderson_SC	Greenville_SC	Pickens_SC	Laurens_SC	Oconee_SC	Abbeville_SC
+Baldwin_GA	Hancock_GA	Washington_GA	Jones_GA	Putnam_GA	Wilkinson_GA	Baldwin_GA
+Okeechobee_FL	Highlands_FL	Okeechobee_FL	St. Lucie_FL	Glades_FL	Indian River_FL	Osceola_FL
+Watauga_NC	Caldwell_NC	Watauga_NC	Wilkes_NC	Ashe_NC	Avery_NC
+Okaloosa_FL	Okaloosa_FL	Santa Rosa_FL	Walton_FL
+Sarasota_FL	Manatee_FL	DeSoto_FL	Sarasota_FL	Charlotte_FL
+Jeff Davis_GA	Telfair_GA	Montgomery_GA	Toombs_GA	Coffee_GA	Jeff Davis_GA	Wheeler_GA	Appling_GA
+Appling_GA	Toombs_GA	Pierce_GA	Tattnall_GA	Wayne_GA	Appling_GA
+Crawford_GA	Crawford_GA	Houston_GA	Taylor_GA	Bibb_GA
+Flagler_FL	Volusia_FL	Flagler_FL
+Martin_NC	Edgecombe_NC	Beaufort_NC	Bertie_NC	Halifax_NC	Martin_NC	Washington_NC
+Dawson_GA	Cherokee_GA	Lumpkin_GA	Gilmer_GA	Dawson_GA
+Harris_GA	Troup_GA	Muscogee_GA	Harris_GA
+Montgomery_GA	Toombs_GA	Montgomery_GA	Treutlen_GA	Wheeler_GA
+Cobb_GA	Cherokee_GA	Douglas_GA	Fulton_GA	Cobb_GA	Bartow_GA
+Banks_GA	Habersham_GA	Jackson_GA	Stephens_GA	Madison_GA	Banks_GA	Franklin_GA
+Warren_NC	Nash_NC	Franklin_NC	Halifax_NC	Northampton_NC	Vance_NC	Warren_NC
+Tyrrell_NC	Pasquotank_NC	Dare_NC	Camden_NC	Perquimans_NC	Tyrrell_NC	Washington_NC
+Hampton_SC	Hampton_SC	Beaufort_SC	Allendale_SC	Bamberg_SC	Effingham_GA	Colleton_SC
+Long_GA	McIntosh_GA	Long_GA	Liberty_GA	Tattnall_GA	Wayne_GA
+Washington_GA	Hancock_GA	Washington_GA	Wilkinson_GA	Glascock_GA
+Haywood_NC	Swain_NC	Henderson_NC	Buncombe_NC	Transylvania_NC	Jackson_NC	Madison_NC	Haywood_NC
+Carroll_GA	Haralson_GA	Heard_GA	Douglas_GA	Fulton_GA	Carroll_GA
+Clarke_GA	Jackson_GA	Clarke_GA	Madison_GA
+Sampson_NC	Wayne_NC	Cumberland_NC	Sampson_NC	Harnett_NC	Johnston_NC	Duplin_NC
+Allendale_SC	Allendale_SC	Bamberg_SC	Colleton_SC	Barnwell_SC
+Candler_GA	Toombs_GA	Emanuel_GA	Tattnall_GA	Candler_GA
+Greene_NC	Wayne_NC	Greene_NC	Wilson_NC
+Wake_NC	Durham_NC	Chatham_NC	Nash_NC	Franklin_NC	Granville_NC	Wake_NC	Harnett_NC	Johnston_NC
+Nash_NC	Edgecombe_NC	Nash_NC	Franklin_NC	Halifax_NC	Wilson_NC	Johnston_NC
+Dodge_GA	Telfair_GA	Dodge_GA	Bleckley_GA	Wheeler_GA
+Mecklenburg_NC	York_SC	Mecklenburg_NC	Iredell_NC	Lincoln_NC	Union_NC
+Fulton_GA	DeKalb_GA	Cherokee_GA	Fayette_GA	Douglas_GA	Fulton_GA	Clayton_GA
+Thomas_GA	Mitchell_GA	Thomas_GA	Jefferson_FL
+Murray_GA	Whitfield_GA	Gilmer_GA	Murray_GA
+Monroe_FL	Miami-Dade_FL	Monroe_FL
+Santa Rosa_FL	Santa Rosa_FL
+Union_SC	York_SC	Cherokee_SC	Spartanburg_SC	Fairfield_SC	Laurens_SC	Union_SC
+Glascock_GA	Warren_GA	Hancock_GA	Glascock_GA
+Wayne_NC	Wayne_NC	Wilson_NC	Johnston_NC	Duplin_NC
+Lanier_GA	Echols_GA	Lanier_GA	Berrien_GA	Lowndes_GA	Atkinson_GA
+Houston_GA	Dooly_GA	Houston_GA	Bleckley_GA	Bibb_GA
+Hoke_NC	Cumberland_NC	Richmond_NC	Hoke_NC	Scotland_NC	Moore_NC	Robeson_NC
+Worth_GA	Mitchell_GA	Tift_GA	Worth_GA	Crisp_GA	Dougherty_GA	Turner_GA
+Cook_GA	Tift_GA	Berrien_GA	Cook_GA	Lowndes_GA
+Robeson_NC	Marlboro_SC	Cumberland_NC	Scotland_NC	Dillon_SC	Columbus_NC	Robeson_NC	Horry_SC
+Taliaferro_GA	Hancock_GA	Warren_GA	Greene_GA	Taliaferro_GA
+Chatham_GA	Effingham_GA	Bryan_GA	Liberty_GA	Chatham_GA
+Swain_NC	Swain_NC	Macon_NC	Jackson_NC	Graham_NC
+Dorchester_SC	Colleton_SC	Dorchester_SC	Orangeburg_SC	Charleston_SC	Berkeley_SC
+Hernando_FL	Sumter_FL	Hernando_FL	Pasco_FL
+Cherokee_GA	Cherokee_GA	Bartow_GA
+Surry_NC	Yadkin_NC	Surry_NC	Wilkes_NC	Stokes_NC
+Hertford_NC	Hertford_NC	Bertie_NC	Northampton_NC	Gates_NC
+Effingham_GA	Effingham_GA	Bryan_GA
+Person_NC	Durham_NC	Person_NC	Granville_NC	Caswell_NC
+Bleckley_GA	Bleckley_GA	Wilkinson_GA
+Bartow_GA	Polk_GA	Bartow_GA	Floyd_GA
+Turner_GA	Ben Hill_GA	Tift_GA	Irwin_GA	Crisp_GA	Turner_GA
+Early_GA	Calhoun_GA	Seminole_GA	Early_GA
+Ware_GA	Charlton_GA	Ware_GA	Pierce_GA	Brantley_GA	Coffee_GA	Baker_FL	Atkinson_GA
+Heard_GA	Troup_GA	Heard_GA
+Buncombe_NC	Rutherford_NC	Henderson_NC	Buncombe_NC	Madison_NC	McDowell_NC
+Rockdale_GA	DeKalb_GA	Walton_GA	Rockdale_GA	Henry_GA
+Union_NC	Chesterfield_SC	Anson_NC	Stanly_NC	Union_NC
+Vance_NC	Granville_NC	Franklin_NC	Vance_NC
+Mitchell_GA	Mitchell_GA	Decatur_GA	Dougherty_GA
+Sumter_GA	Sumter_GA	Dooly_GA	Webster_GA	Crisp_GA	Terrell_GA	Marion_GA
+Lee_FL	Lee_FL	Glades_FL	Charlotte_FL
+Franklin_GA	Stephens_GA	Hart_GA	Madison_GA	Franklin_GA	Oconee_SC
+Jefferson_FL	Madison_FL	Taylor_FL	Jefferson_FL
+Pasco_FL	Pasco_FL	Sumter_FL
+Pickens_SC	Pickens_SC	Transylvania_NC	Oconee_SC	Greenville_SC
+Camden_GA	Brantley_GA	Camden_GA	Charlton_GA
+Iredell_NC	Catawba_NC	Alexander_NC	Yadkin_NC	Iredell_NC	Lincoln_NC	Wilkes_NC
+Ashe_NC	Wilkes_NC	Ashe_NC
+Putnam_GA	Hancock_GA	Jones_GA	Morgan_GA	Jasper_GA	Greene_GA	Putnam_GA
+Mitchell_NC	Avery_NC	McDowell_NC	Mitchell_NC
+Ben Hill_GA	Ben Hill_GA	Telfair_GA	Irwin_GA	Coffee_GA
+Madison_FL	Madison_FL	Taylor_FL	Hamilton_FL	Lowndes_GA	Lafayette_FL
+Taylor_FL	Lafayette_FL	Taylor_FL
+Treutlen_GA	Toombs_GA	Treutlen_GA	Emanuel_GA	Wheeler_GA
+Saluda_SC	Aiken_SC	Greenwood_SC	Saluda_SC	Lexington_SC
+Stewart_GA	Randolph_GA	Quitman_GA	Stewart_GA	Webster_GA	Marion_GA
+Columbus_NC	Dillon_SC	Columbus_NC	Horry_SC
+Orangeburg_SC	Aiken_SC	Bamberg_SC	Lexington_SC	Berkeley_SC	Colleton_SC	Orangeburg_SC	Barnwell_SC
+Jackson_NC	Rabun_GA	Transylvania_NC	Jackson_NC	Macon_NC	Oconee_SC
+Spartanburg_SC	Rutherford_NC	Cherokee_SC	Greenville_SC	Spartanburg_SC	Laurens_SC
+Stokes_NC	Rockingham_NC	Stokes_NC	Guilford_NC
+Telfair_GA	Telfair_GA	Coffee_GA	Wheeler_GA
+Gilmer_GA	Gilmer_GA
+Duval_FL	Baker_FL	Clay_FL	Duval_FL
+Walker_GA	Whitfield_GA	Dade_GA	Catoosa_GA	Walker_GA	Chattooga_GA	Floyd_GA
+Terrell_GA	Terrell_GA	Randolph_GA	Calhoun_GA	Webster_GA	Dougherty_GA
+Georgetown_SC	Williamsburg_SC	Charleston_SC	Marion_SC	Georgetown_SC	Berkeley_SC	Horry_SC
+Lafayette_FL	Gilchrist_FL	Lafayette_FL
+Charlton_GA	Charlton_GA	Brantley_GA	Baker_FL
+Hart_GA	Elbert_GA	Hart_GA	Madison_GA	Oconee_SC
+Butts_GA	Lamar_GA	Spalding_GA	Jasper_GA	Henry_GA	Butts_GA
+Jones_GA	Jones_GA	Wilkinson_GA	Bibb_GA	Jasper_GA
+Stanly_NC	Davidson_NC	Richmond_NC	Anson_NC	Stanly_NC
+Laurens_SC	Greenwood_SC	Greenville_SC	Laurens_SC	Abbeville_SC
+Columbia_FL	Echols_GA	Gilchrist_FL	Columbia_FL	Union_FL	Hamilton_FL	Alachua_FL	Baker_FL
+Cumberland_NC	Cumberland_NC	Harnett_NC	Moore_NC
+Pasquotank_NC	Pasquotank_NC	Gates_NC	Perquimans_NC	Camden_NC
+Seminole_GA	Seminole_GA	Decatur_GA
+Chattooga_GA	Floyd_GA	Chattooga_GA
+Dougherty_GA	Calhoun_GA	Dougherty_GA
+Cherokee_SC	Rutherford_NC	York_SC	Cherokee_SC	Cleveland_NC
+Alexander_NC	Wilkes_NC	Alexander_NC	Catawba_NC	Caldwell_NC
+Yadkin_NC	Yadkin_NC	Wilkes_NC
+Liberty_GA	Liberty_GA	Bryan_GA	Tattnall_GA	McIntosh_GA
+Anson_NC	Chesterfield_SC	Marlboro_SC	Richmond_NC	Anson_NC
+Jones_NC	Carteret_NC	Jones_NC	Craven_NC	Onslow_NC	Duplin_NC
+St. Lucie_FL	St. Lucie_FL	Indian River_FL
+Walton_FL	Washington_FL	Walton_FL
+Gilchrist_FL	Gilchrist_FL	Levy_FL	Alachua_FL
+Emanuel_GA	Toombs_GA	Emanuel_GA	Tattnall_GA
+Marion_GA	Taylor_GA	Webster_GA	Marion_GA
+Glades_FL	DeSoto_FL	Highlands_FL	Glades_FL	Charlotte_FL
+New Hanover_NC	New Hanover_NC
+Camden_NC	Gates_NC	Camden_NC
+Bradford_FL	Alachua_FL	Baker_FL	Union_FL	Clay_FL	Bradford_FL
+Osceola_FL	Brevard_FL	Highlands_FL	Indian River_FL	Osceola_FL
+Lowndes_GA	Echols_GA	Berrien_GA	Hamilton_FL	Lowndes_GA
+Wilkes_NC	Caldwell_NC	Wilkes_NC
+York_SC	York_SC	Cleveland_NC
+Echols_GA	Echols_GA	Hamilton_FL
+Beaufort_NC	Beaufort_NC	Pamlico_NC	Washington_NC	Craven_NC
+Hancock_GA	Hancock_GA	Warren_GA	Greene_GA
+Levy_FL	Levy_FL	Alachua_FL	Marion_FL
+White_GA	Lumpkin_GA	White_GA	Habersham_GA
+Union_FL	Baker_FL	Alachua_FL	Union_FL
+Rockingham_NC	Guilford_NC	Alamance_NC	Rockingham_NC	Caswell_NC
+Coffee_GA	Berrien_GA	Irwin_GA	Coffee_GA	Atkinson_GA
+Webster_GA	Randolph_GA	Webster_GA
+Berkeley_SC	Williamsburg_SC	Charleston_SC	Berkeley_SC
+Jackson_GA	Jackson_GA	Madison_GA
+Halifax_NC	Edgecombe_NC	Bertie_NC	Halifax_NC	Northampton_NC	Franklin_NC
+Cleveland_NC	Rutherford_NC	Burke_NC	Cleveland_NC	Lincoln_NC
+Colleton_SC	Beaufort_SC	Bamberg_SC	Charleston_SC	Colleton_SC
+Washington_FL	Washington_FL
+Spalding_GA	Lamar_GA	Pike_GA	Fayette_GA	Spalding_GA	Clayton_GA	Henry_GA
+Bibb_GA	Bibb_GA
+Beaufort_SC	Beaufort_SC
+Williamsburg_SC	Williamsburg_SC	Marion_SC
+Fayette_GA	Clayton_GA	Fayette_GA
+Bertie_NC	Bertie_NC	Washington_NC	Northampton_NC
+McIntosh_GA	Wayne_GA	McIntosh_GA
+Calhoun_GA	Randolph_GA	Calhoun_GA
+DeKalb_GA	DeKalb_GA	Clayton_GA	Henry_GA
+Taylor_GA	Taylor_GA
+Madison_GA	Elbert_GA	Madison_GA
+Highlands_FL	DeSoto_FL	Highlands_FL	Charlotte_FL	Hardee_FL
+Alamance_NC	Chatham_NC	Guilford_NC	Alamance_NC	Caswell_NC	Randolph_NC
+Floyd_GA	Polk_GA	Floyd_GA
+Pamlico_NC	Carteret_NC	Craven_NC	Pamlico_NC
+Randolph_NC	Davidson_NC	Chatham_NC	Guilford_NC	Moore_NC	Randolph_NC
+Lee_NC	Moore_NC	Chatham_NC	Harnett_NC	Lee_NC
+Polk_GA	Polk_GA	Haralson_GA
+Tift_GA	Tift_GA	Irwin_GA	Berrien_GA
+Burke_NC	Rutherford_NC	Catawba_NC	Burke_NC	Caldwell_NC	Lincoln_NC	Avery_NC	McDowell_NC
+McCormick_SC	Elbert_GA	Greenwood_SC	McCormick_SC	Lincoln_GA	Abbeville_SC
+Caldwell_NC	Catawba_NC	Caldwell_NC	Avery_NC
+Decatur_GA	Decatur_GA
+Chesterfield_SC	Chesterfield_SC	Marlboro_SC	Richmond_NC	Kershaw_SC	Darlington_SC
+Edgecombe_NC	Edgecombe_NC	Wilson_NC
+Dooly_GA	Crisp_GA	Dooly_GA
+Guilford_NC	Davidson_NC	Guilford_NC
+Dillon_SC	Marlboro_SC	Dillon_SC	Marion_SC	Horry_SC
+Madison_NC	Madison_NC
+Caswell_NC	Caswell_NC
+Indian River_FL	Brevard_FL	Indian River_FL
+Randolph_GA	Randolph_GA	Quitman_GA
+Lamar_GA	Pike_GA	Lamar_GA
+Greenwood_SC	Greenwood_SC	Abbeville_SC
+Dade_GA	Dade_GA
+Catoosa_GA	Whitfield_GA	Catoosa_GA
+Quitman_GA	Quitman_GA
+Scotland_NC	Marlboro_SC	Richmond_NC	Scotland_NC	Moore_NC
+Carteret_NC	Carteret_NC	Onslow_NC	Craven_NC
+Davidson_NC	Davidson_NC
+Granville_NC	Durham_NC	Franklin_NC	Granville_NC
+Dare_NC	Dare_NC
+Seminole_FL	Volusia_FL	Brevard_FL	Seminole_FL
+Whitfield_GA	Whitfield_GA
+Habersham_GA	Rabun_GA	Stephens_GA	Habersham_GA	Oconee_SC
+Lexington_SC	Aiken_SC	Lexington_SC
+Walton_GA	Walton_GA	Morgan_GA
+Rutherford_NC	Rutherford_NC	Henderson_NC	McDowell_NC
+Kershaw_SC	Fairfield_SC	Kershaw_SC	Lee_SC	Darlington_SC	Sumter_SC
+Sumter_FL	Sumter_FL	Marion_FL
+Alachua_FL	Marion_FL	Alachua_FL
+DeSoto_FL	DeSoto_FL	Manatee_FL	Charlotte_FL	Hardee_FL
+Moore_NC	Chatham_NC	Richmond_NC	Harnett_NC	Moore_NC
+Graham_NC	Cherokee_NC	Macon_NC	Graham_NC
+Hardee_FL	Manatee_FL	Hardee_FL
+Stephens_GA	Oconee_SC	Stephens_GA
+Muscogee_GA	Muscogee_GA
+Bryan_GA	Bryan_GA
+Greenville_SC	Henderson_NC	Greenville_SC	Transylvania_NC	Abbeville_SC
+Manatee_FL	Manatee_FL
+Abbeville_SC	Elbert_GA	Abbeville_SC
+Wheeler_GA	Wheeler_GA
+Miami-Dade_FL	Miami-Dade_FL
+Fairfield_SC	Fairfield_SC
+Clay_FL	Baker_FL	Clay_FL
+Pike_GA	Pike_GA
+Lincoln_GA	Elbert_GA	Lincoln_GA	McDuffie_GA
+Wayne_GA	Brantley_GA	Pierce_GA	Tattnall_GA	Wayne_GA
+Sumter_SC	Lee_SC	Sumter_SC
+Atkinson_GA	Berrien_GA	Atkinson_GA
+Henry_GA	Clayton_GA	Henry_GA
+Greene_GA	Morgan_GA	Greene_GA
+Johnston_NC	Franklin_NC	Harnett_NC	Wilson_NC	Johnston_NC
+Avery_NC	Avery_NC	McDowell_NC
+Rabun_GA	Rabun_GA	Macon_NC	Oconee_SC
+Richmond_NC	Marlboro_SC	Richmond_NC
+Marion_SC	Marion_SC	Horry_SC
+Wilson_NC	Wilson_NC
+Crisp_GA	Crisp_GA
+Lincoln_NC	Catawba_NC	Lincoln_NC
+Baker_FL	Baker_FL
+Tattnall_GA	Toombs_GA	Tattnall_GA
+Lee_SC	Darlington_SC	Lee_SC
+Macon_NC	Oconee_SC	Cherokee_NC	Macon_NC
+Aiken_SC	Aiken_SC	Barnwell_SC
+Henderson_NC	Henderson_NC	Transylvania_NC
+Morgan_GA	Morgan_GA	Jasper_GA
+Brevard_FL	Brevard_FL	Volusia_FL
+Volusia_FL	Volusia_FL	Marion_FL
+Gates_NC	Gates_NC	Perquimans_NC
+Clayton_GA	Clayton_GA
+Duplin_NC	Onslow_NC	Duplin_NC
+Charleston_SC	Charleston_SC
+Cherokee_NC	Cherokee_NC
+Jasper_GA	Jasper_GA
+Elbert_GA	Elbert_GA
+Haralson_GA	Haralson_GA
+Troup_GA	Troup_GA
+Marion_FL	Marion_FL
+Washington_NC	Washington_NC	Perquimans_NC
+Douglas_GA	Douglas_GA
+Transylvania_NC	Transylvania_NC	Oconee_SC
+Berrien_GA	Irwin_GA	Berrien_GA
+Wilkinson_GA	Wilkinson_GA
+McDowell_NC	McDowell_NC
+Oconee_SC	Oconee_SC
+Barnwell_SC	Bamberg_SC	Barnwell_SC
+Lumpkin_GA	Lumpkin_GA
+Marlboro_SC	Marlboro_SC	Darlington_SC
+Brantley_GA	Brantley_GA	Pierce_GA
+Charlotte_FL	Charlotte_FL
+Perquimans_NC	Perquimans_NC
+Horry_SC	Horry_SC
+Irwin_GA	Irwin_GA
+Harnett_NC	Chatham_NC	Harnett_NC
+Toombs_GA	Toombs_GA
+Catawba_NC	Catawba_NC
+Franklin_NC	Franklin_NC
+McDuffie_GA	McDuffie_GA	Warren_GA
+Hamilton_FL	Hamilton_FL
+Northampton_NC	Northampton_NC
+Craven_NC	Craven_NC
+Durham_NC	Durham_NC	Chatham_NC
+Chatham_NC	Chatham_NC
+Warren_GA	Warren_GA
+Bamberg_SC	Bamberg_SC
+Pierce_GA	Pierce_GA
+Onslow_NC	Onslow_NC
+Darlington_SC	Darlington_SC
